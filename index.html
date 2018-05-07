@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <script type="text/javascript" src="./scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="./scripts/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="./scripts/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Neurodiversity Works</title>
+  <body>
+    <h1>Neurodiversity Works</h1>
+    <div class="upform">
+      <div class="upform-header"></div>
+      <div class="upform-main">
+        <div class="input-block">
+          <iframe name='hidden-iframe' style='display: none'></iframe>
+          <form id='google-form' method='post' target='hidden-iframe' action='https://script.google.com/macros/s/AKfycbze3N0fvKRExbH6zohSrDsLf8QcUXRpK94cUkHm6kPUw47NtNg/exec'>
+            <div class="label">Name:</div>
+            <div class="input-control">
+              <input type='text' class='required' autocomplete='off' name='Name'>
+            </div>
+          </div>
+          <div class="input-block">
+            <div class="input-control">
+              <div class="label">Email:</div>
+              <input type='text' class='required' autocomplete='off' name='Email'>
+            </div>
+          </div>
+          <div class="input-block">
+            <div class="input-control">
+              <div class="label">Address:<div>
+                <input type='text' class='required' autocomplete='off' name='Address'>
+              </div>
+            </div>
+            <div class="input-block">
+              <div class="input-control">
+                <div class="label">Best Friend:</div>
+                <input type='text' class='required' autocomplete='off' name='BestFriend'>
+              </div>
+            </div>
+            <div class="input-block">
+              <div class="input-control">
+                <div class="label">Tv Type</div>
+                <input type='text' class='required' autocomplete='off' name='TVType'>
+              </div>
+            </div>
+            <div class="input-block">
+              <div class="label">Do you work with specific clinical groups?</div>
+              <div class="input-control">
+                <input id="toggle-on-q1" class="toggle toggle-left" name="ClinicalGroup" value="Autism Spectrum" type="checkbox">
+                <label for="toggle-on-q1" class="btn"><span>A</span>Autism Spectrum</label>
+              </div>
+              <div class="input-control">
+                <input id="toggle-off-q1" class="toggle toggle-right" name="ClinicalGroup" value="Neurodiversity" type="checkbox">
+                <label for="toggle-off-q1" class="btn"><span>B</span>Neurodiversity</label>
+              </div>
+              <div class="input-control">
+                <input id="toggle-off-q1" class="toggle toggle-right" name="ClinicalGroup" value="Learning Disability" type="checkbox">
+                <label for="toggle-off-q1" class="btn"><span>C</span>Learning Disability</label>
+              </div>
+              <div class="input-control">
+                <input id="toggle-off-q1" class="toggle toggle-right" name="ClinicalGroup" value="Learning Difficulty" type="checkbox">
+                <label for="toggle-off-q1" class="btn"><span>D</span>Learning Difficulty e.g. Dyslexia, Dyspraxia</label>
+              </div>
+              <div class="input-control">
+                <input id="toggle-off-q1" class="toggle toggle-right" name="ClinicalGroup" value="ADHD or Behavioural Issues" type="checkbox">
+                <label for="toggle-off-q1" class="btn"><span>E</span>ADHD or Behavioural Issues</label>
+              </div>
+              <div class="input-control">
+                <input id="toggle-off-q1" class="toggle toggle-right" name="ClinicalGroup" value="Bipolar or Schizophrenia" type="checkbox">
+                <label for="toggle-off-q1" class="btn"><span>F</span>Bipolar or Schizophrenia</label>
+              </div>
+              <div class="input-control">
+                <input id="toggle-off-q1" class="toggle toggle-right" name="ClinicalGroup" value="Substance Misuse" type="checkbox">
+                <label for="toggle-off-q1" class="btn"><span>G</span>Substance Misuse</label>
+              </div>
+              <div class="input-control">
+                <input id="toggle-off-q1" class="toggle toggle-right" name="ClinicalGroup" value="None" type="checkbox">
+                <label for="toggle-off-q1" class="btn"><span>H</span>None</label>
+              </div>
+              <div class="input-control">
+                <div>Other:</div>
+                <input type='text' class='required' autocomplete='off' name='ClinicalGroup'>
+              </div>
+            </div>
+            <div class="upform-footer">
+              <input type='submit' class="btn btn-primary btn-lg" value='Submit'>
+            </form>
+          </div>
+        </div>
+      </body>
+      </html>
