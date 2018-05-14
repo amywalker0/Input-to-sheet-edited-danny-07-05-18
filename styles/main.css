@@ -4,6 +4,15 @@ body {
   color: #FFF;
 }
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.projectwrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .btn {
   border: 1px solid #808080;
   display: inline-block;
@@ -43,17 +52,55 @@ input[type="checkbox"].toggle + label:after {
   width: 100%;
   z-index: -1;
 }
-input[type="checkbox"].toggle.toggle-left + label {
+input[type="checkbox"].toggle.toggle-one + label {
 }
-input[type="checkbox"].toggle.toggle-left + label:after {
+input[type="checkbox"].toggle.toggle-one + label:after {
   left: 100%;
 }
-input[type="checkbox"].toggle.toggle-right + label {
+input[type="checkbox"].toggle.toggle-two + label {
   margin-left: 10px;
 }
-input[type="checkbox"].toggle.toggle-right + label:after {
+input[type="checkbox"].toggle.toggle-two + label:after {
   left: -100%;
 }
+
+input[type="checkbox"].toggle.toggle-three + label {
+}
+input[type="checkbox"].toggle.toggle-three + label:after {
+  left: 100%;
+}
+input[type="checkbox"].toggle.toggle-four + label {
+  margin-left: 10px;
+}
+input[type="checkbox"].toggle.toggle-four + label:after {
+  left: -100%;
+}
+
+input[type="checkbox"].toggle.toggle-five + label {
+}
+input[type="checkbox"].toggle.toggle-five + label:after {
+  left: 100%;
+}
+input[type="checkbox"].toggle.toggle-six + label {
+  margin-left: 10px;
+}
+input[type="checkbox"].toggle.toggle-six + label:after {
+  left: -100%;
+}
+
+input[type="checkbox"].toggle.toggle-seven + label {
+}
+input[type="checkbox"].toggle.toggle-seven + label:after {
+  left: 100%;
+}
+input[type="checkbox"].toggle.toggle-eight + label {
+  margin-left: 10px;
+}
+input[type="checkbox"].toggle.toggle-eight + label:after {
+  left: -100%;
+}
+
+
 input[type="checkbox"].toggle:checked + label {
   background: #FFF;
   cursor: default;
@@ -92,10 +139,9 @@ input[type="checkbox"].toggle:checked + label:after {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
 		            supported by Chrome and Opera */
-  max-width: 900px;
-  margin: 300px auto;
-  margin-bottom: 500px;
-  padding: 0 20px;
+  max-width: 80%;
+  margin: 10% auto;
+  margin-bottom: 10%;
 }
 
 .upform .upform-main {
@@ -126,7 +172,7 @@ input[type="checkbox"].toggle:checked + label:after {
 }
 
 .upform .upform-footer {
-  margin-top: 60px;
+  margin-top: 5%;
 }
 .upform .upform-footer .btn {
   font-size: 24px;
